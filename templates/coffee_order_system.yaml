@@ -1,0 +1,9 @@
+model: "llama3.1:8b"
+agents:
+  - name: "planner"
+    dependencies: []
+  - name: "executor"
+    dependencies: ["planner"]
+artifact:
+  hash: "sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+  timestamp: "2026-11-16T10:16:00Z"
